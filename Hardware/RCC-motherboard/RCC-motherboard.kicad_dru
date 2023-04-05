@@ -1,0 +1,10 @@
+(version 1)
+
+(rule "Motor Driver 1 pad clearance"
+   (constraint clearance (min 0.2mm))
+   (condition "A.insideCourtyard('U4')"))
+
+
+(rule "Motor Driver 2 pad clearance"
+   (constraint clearance (min 0.2mm))
+   (condition "A.insideCourtyard('U3')"))
