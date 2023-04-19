@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BLE Remote Control Board")
+    (date "2023-04-17")
+    (rev "1")
+    (company "University of Denver")
+  )
+
   (lib_symbols
     (symbol "1760510000:1760510000" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -3.8159 6.9957 0)
@@ -1606,7 +1613,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 3837b992-34c5-423a-9528-ee4e4577bb33)
   )
-  (text "0.1uF CL05A104KA5NNNC" (at 20.32 139.7 0)
+  (text "0.1uF CL05A104KA5NNNC" (at 20.32 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 38d403ae-19a7-4f3b-a517-c617097034c2)
   )
@@ -1643,7 +1650,7 @@
     (effects (font (size 2.27 2.27) (thickness 0.454) bold) (justify left bottom))
     (uuid 6361752d-4dc5-4af5-af48-b8a195523169)
   )
-  (text "100uF TAJD107K016RNJ" (at 20.32 135.89 0)
+  (text "100uF TAJD107K016RNJ" (at 20.32 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 813a4aa3-1438-4ed8-8682-303d1dc485af)
   )
@@ -1655,7 +1662,7 @@
     (effects (font (size 2.27 2.27) (thickness 0.454) bold italic) (justify left bottom))
     (uuid b993dc19-b641-49f0-aed5-80dae17e2137)
   )
-  (text "10uF: TAJA106K016RNJ\n" (at 20.32 132.08 0)
+  (text "10uF: TAJA106K016RNJ\n" (at 20.32 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9f69319-fe98-462f-912d-2cb208400175)
   )
@@ -1667,7 +1674,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d000242f-a7ef-4be1-947e-bf04ec2e0474)
   )
-  (text "10k resistor: RNCP0805FTD10K0" (at 20.32 143.51 0)
+  (text "10k resistor: RNCP0805FTD10K0" (at 20.32 144.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e2b45219-5b34-461a-9b56-b03ab14ac4a9)
   )
