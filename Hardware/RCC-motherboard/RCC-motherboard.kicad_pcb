@@ -52,7 +52,6 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 132.48 66.696051)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -1496,6 +1495,9 @@
   )
   (gr_text "M4" (at 179.98 125.924151 90) (layer "F.SilkS") (tstamp 74ea1322-b471-4e6b-841c-b6505068b45e)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (gr_text "THE FOOTPRINT IS WRONG" (at 153.7 92.4) (layer "Dwgs.User") (tstamp cb7cd691-89c3-42f8-908e-e945525dbc9a)
+    (effects (font (size 1 1) (thickness 0.25)))
   )
   (dimension (type orthogonal) (layer "Dwgs.User") (tstamp 1ffab519-baa5-4239-88c3-4a6abab269ca)
     (pts (xy 132.48 132.696051) (xy 132.48 66.696051))
